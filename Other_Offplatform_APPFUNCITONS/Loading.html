@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Splash Screen</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: black;
+    }
+    .splash {
+      background: url('https://www.appcreator24.com/srv/imgs/gen/3458734_splash_ani.gif?ts=1747076927') no-repeat center center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+  <script>
+    window.onload = function() {
+      setTimeout(function() {
+        const redirectUrl = localStorage.getItem("LoadReturnPath");
+        if (redirectUrl) {
+          window.location.href = redirectUrl;
+        } else {
+          console.warn("LoadReturnPath not set in localStorage.");
+        }
+      }, 3000);
+    };
+  </script>
+</head>
+<body>
+  <div class="splash"></div>
+</body>
+</html>
