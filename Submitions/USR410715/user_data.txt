@@ -1,4 +1,0 @@
-{
-  "workType": "Drop1",
-  "userId": "USR410715"
-}
