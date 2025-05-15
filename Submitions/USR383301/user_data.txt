@@ -1,9 +1,0 @@
-{
-  "front": "Test",
-  "middle": "Test",
-  "back": "Test",
-  "workType": "Drop3",
-  "userId": "USR383301",
-  "deviceId": "Test",
-  "physicalId": "Test"
-}
