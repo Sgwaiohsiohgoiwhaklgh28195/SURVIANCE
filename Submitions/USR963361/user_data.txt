@@ -1,7 +1,0 @@
-{
-  "front": "test",
-  "middle": "test",
-  "back": "tset",
-  "workType": "Drop1",
-  "userId": "USR963361"
-}
