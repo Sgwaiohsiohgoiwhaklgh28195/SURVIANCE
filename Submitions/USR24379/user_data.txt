@@ -1,0 +1,16 @@
+{
+  "front": "Test",
+  "middle": "User",
+  "back": "12345",
+  "age": "16",
+  "gender": "Djfhdhfjh",
+  "sexuality": "Unknown",
+  "phone": "+68 6 9474793847",
+  "address": "Unknown",
+  "work": "Unknown",
+  "workType": "Drop3",
+  "role": "Test",
+  "userId": "USR24379",
+  "deviceId": "Test",
+  "physicalId": "Test"
+}
